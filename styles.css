@@ -1,3 +1,7 @@
+body {
+    margin: 0%;
+}
+
 .headerandhero {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,12 @@ ul {
     padding: 14px 24px 14px 0;
 }
 
+img {
+    height: 150px;
+    width: 360px;
+    padding: 24px 24px 48px 24px;
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -31,17 +41,22 @@ a {
 
 .hero {
     display: flex; 
-    justify-content: space-between;   
+    justify-content: center;   
 }
 
 .heromain {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    width: 400px;
+    width: 600px;
 }
 
 .herosecondary {
     color: #E5E7EB;
     font-size: 18px;
+    width: 400px;
+}
+
+.herotext {
+    padding: 24px 24px 48px 24px;
 }
