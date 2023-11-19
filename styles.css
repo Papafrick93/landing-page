@@ -60,3 +60,21 @@ a {
 .herotext {
     padding: 24px 24px 48px 24px;
 }
+
+.infotitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 24px;
+}
+
+.infocontainer {
+    display: flex;
+}
+ .box {
+    height: 150px;
+    width: 170px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+ }
