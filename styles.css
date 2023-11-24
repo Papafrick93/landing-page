@@ -61,20 +61,43 @@ a {
     padding: 24px 24px 48px 24px;
 }
 
+.button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
+
 .infotitle {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     text-align: center;
     padding: 24px;
+    margin-bottom: 25px;
 }
 
 .infocontainer {
     display: flex;
+    justify-content: center;
 }
  .box {
     height: 150px;
     width: 170px;
     border: 5px solid #3882F6;
     border-radius: 20px;
+ }
+
+ .info {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+ }
+
+ .text {
+    width: 150px;
+    text-align: center;
+    padding-left: 15px;
  }
