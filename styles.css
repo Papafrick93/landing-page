@@ -101,3 +101,24 @@ a {
     text-align: center;
     padding-left: 15px;
  }
+  .quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 250px;
+  }
+
+  .quotetext {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 800px;
+  }
+
+  .quotesign {
+    font-size: 24px;
+    font-weight: 900;
+    padding-left: 500px;
+  }
